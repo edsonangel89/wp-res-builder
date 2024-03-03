@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/wp-res-builder",
+	"version": "0.1.0",
+	"title": "Wp Res Builder",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Custom and responsive elements builder",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"responsive": {
+			"type":"boolean"
+		}
+	},
+	"textdomain": "wp-res-builder",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
